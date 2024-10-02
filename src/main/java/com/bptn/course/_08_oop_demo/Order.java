@@ -1,4 +1,4 @@
-package com.bptn.course._oop_demo;
+package com.bptn.course._08_oop_demo;
 
 class Order {
 	private Customer customer; 
