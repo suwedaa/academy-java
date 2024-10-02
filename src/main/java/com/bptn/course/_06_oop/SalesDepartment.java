@@ -9,6 +9,11 @@ class SalesDepartment extends Department {
 		super(name, numOfEmployees);
 		this.totalSalesAmount = totalSalesAmount;
 	}
-
+	
+@Override
+	public void showInfo() {
+		System.out.println("DepartmentName: "+ name + "NumberofEmployees: " + numOfEmployees);
+		System.out.println("Number of Sales: "+totalSalesAmount); 
+	}
 }
 
