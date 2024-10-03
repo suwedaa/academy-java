@@ -1,6 +1,6 @@
 package com.bptn.course.game_board;
-import java.util.Arrays;
-import java.util.Scanner;
+//import java.util.Arrays;
+//import java.util.Scanner;
 
 public class Main {
     // TODO: Uncomment this to test your board class in isolation. 
@@ -58,5 +58,11 @@ public class Main {
          System.out.println("Board 2 check left diagonal w returns -> " + board2.checkLeftDiagonal("w"));
 
          board2.printBoard();
+         
+       //new game 
+         Game game = new Game(null, board2); 
+         game.setUpGame();
+         
+         
      }
 }
